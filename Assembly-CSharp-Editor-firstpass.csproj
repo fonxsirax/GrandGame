@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9645F516-5E68-E7F8-CA6A-B3D287573949}</ProjectGuid>
+    <ProjectGuid>{EA2CC065-0F58-0B97-C49E-A274342887B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -64,20 +64,20 @@
     <Compile Include="Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs" />
     <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
     <None Include="Assets\Plugins\GitHub\Editor\eula.txt" />
-    <Reference Include="Cinemachine">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -317,40 +317,34 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api.45">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Logging">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Unity.45">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.UnityShim">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
-    </Reference>
-    <Reference Include="TextMeshPro-2017.3-Editor">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="TextMeshPro-2017.3-Runtime">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/afons/OneDrive/Documentos/RPG Sheet/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Player_info : MonoBehaviour
 {
-    private GameObject referenceObject;
-    private Game_controller referenceScript; //Link to game controller
+    //private GameObject referenceObject;
+    //private Game_controller referenceScript; //Link to game controller
 
     //private Player player;
     public int aux = 0;
