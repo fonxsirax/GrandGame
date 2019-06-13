@@ -8,6 +8,8 @@ public class Hero : MonoBehaviour
     public float jumpForce;
     public bool Is_jumping;
     public GameObject sword;
+    public GameObject star;
+    public Transform firepoint;
     public bool On_floor = false;
     private SpriteRenderer sprite;
     public int energy = 3;
@@ -53,7 +55,7 @@ public class Hero : MonoBehaviour
         {
             animator.SetBool("jump", false);
             //animator.SetBool("jump", false);
-            energy = 2;
+            energy = 5;
             Is_jumping = false;
         }
 
@@ -65,12 +67,14 @@ public class Hero : MonoBehaviour
         if (Is_jumping)
         {
             animator.SetBool("jump", false);
-            if (Input.GetButton("Fire2"))
+            if (Input.GetButton("Fire2") && energy > 0)
             {
                 aux = 19;
                 animator.SetTrigger("duck");
+                ThrowStar();
+                energy--;
+                //Instantiate(star, firepoint.position, firepoint.rotation);
                 // shuriken
-                energy = 0;
             }
         }
         if (Input.GetButtonDown("Fire1"))
@@ -96,12 +100,14 @@ public class Hero : MonoBehaviour
         if (Is_jumping)
         {
             animator.SetBool("jump", false);
-            if (Input.GetButton("2Fire2"))
+            if (Input.GetButton("2Fire2") && energy >0)
             {
                 aux = 19;
                 animator.SetTrigger("duck");
+                ThrowStar();
+                energy--;
+                //Instantiate(star, firepoint.position, firepoint.rotation);
                 // shuriken
-                energy = 0;
             }
         }
         if (Input.GetButtonDown("2Fire1"))
@@ -120,7 +126,13 @@ public class Hero : MonoBehaviour
             energy--;
         }
     }
-
+    public void ThrowStar()
+    {
+        star.SetActive(true);
+        Instantiate(star,firepoint.position,firepoint.rotation);
+        star.SetActive(false);
+        energy--;
+    }
     //get and set
     public Rigidbody2D Body
     {
@@ -132,7 +144,7 @@ public class Hero : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D theCollision)
     {
-        if (theCollision.gameObject == floor)
+        if ((theCollision.gameObject == floor) || theCollision.gameObject.tag == "Player")
         {
             On_floor = true;
         }

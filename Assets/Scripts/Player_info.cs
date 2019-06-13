@@ -180,10 +180,13 @@ public class Player_info : MonoBehaviour
             return this.power;
         }
     }
-    void Flip()
+    public void Flip()
     {
         turnedLeft = !turnedLeft;
         transform.Rotate(0f, 180f, 0f);
+    }
+    public float GetHP() {
+        return currentLife;
     }
     public Rigidbody2D Body
     {

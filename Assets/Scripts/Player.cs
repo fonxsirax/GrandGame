@@ -213,7 +213,7 @@ public class Player : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D theCollision)
     {
-        if (theCollision.gameObject == floor) {
+        if (theCollision.gameObject == floor || theCollision.gameObject.tag == "Player") {
             On_floor = true;
         }
     }
