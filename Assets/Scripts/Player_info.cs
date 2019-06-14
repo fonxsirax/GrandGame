@@ -8,6 +8,7 @@ public class Player_info : MonoBehaviour
     //private Game_controller referenceScript; //Link to game controller
 
     //private Player player;
+    public GameControl control;
     public int aux = 0;
     public string name;
     public int number = 1;
@@ -17,7 +18,7 @@ public class Player_info : MonoBehaviour
     public float currentMana;
     public float pressingMana =0;  //
     public int skill;              //
-
+    private float positionDead = -20f;
     public GameObject effect;
 
     private float armor = 8;
@@ -86,6 +87,9 @@ public class Player_info : MonoBehaviour
             Is_walking = false;
             animator.SetBool("walk", false);
         }
+        if ((currentLife == 0) || transform.position.y <= positionDead) {
+            death();
+        }
     }
     void Player2ManaPressing()
     {
@@ -124,7 +128,7 @@ public class Player_info : MonoBehaviour
     }
     void Player1ManaPressing()
     {
-        if (Input.GetButton("2Fire2"))
+        if (Input.GetButton("Fire2"))
         {
             effect.SetActive(true);
             pressingMana += 0.3f;
@@ -185,8 +189,10 @@ public class Player_info : MonoBehaviour
         turnedLeft = !turnedLeft;
         transform.Rotate(0f, 180f, 0f);
     }
-    public float GetHP() {
-        return currentLife;
+    public void death() {
+        control.RemoveChar(name);
+        Destroy(gameObject);
+
     }
     public Rigidbody2D Body
     {

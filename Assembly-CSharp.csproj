@@ -76,30 +76,53 @@
     <Compile Include="Assets\Scripts\Hero.cs" />
     <Compile Include="Assets\Scripts\HeroStates.cs" />
     <Compile Include="Assets\Scripts\HitCollider.cs" />
+    <Compile Include="Assets\Scripts\King_Arthur.cs" />
     <Compile Include="Assets\Scripts\Ninja_star.cs" />
     <Compile Include="Assets\Scripts\Parallax_Effect.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Player_info.cs" />
-    <Compile Include="Assets\Scripts\UI\Bar System.cs" />
     <Compile Include="Assets\Scripts\UI\Character.cs" />
     <Compile Include="Assets\Scripts\UI\CharacterSelection.cs" />
-    <Compile Include="Assets\Scripts\UI\Health System.cs" />
+    <Compile Include="Assets\Scripts\UI\CharacterSelection2.cs" />
+    <Compile Include="Assets\Scripts\UI\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\UI\PlayMenu.cs" />
+    <Compile Include="Assets\Scripts\UI\Start_Button.cs" />
     <Compile Include="Assets\StateBehavior.cs" />
     <Compile Include="Assets\WalkBehavior.cs" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Free Asset - 2D Handcrafted Art\Shader\NormalMappedTileAnimated.shader" />
     <None Include="Assets\Event sheets\Game sheet.uistate.xml" />
     <None Include="Assets\Free Asset - 2D Handcrafted Art\Shader\NormalMappedSprite-Animated.shader" />
     <None Include="Assets\Knight Files\Read Me.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Knight Files\Ninja Files\Read Me.txt" />
     <None Include="Assets\Event sheets\Game sheet.xml" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\Event sheets\Event sheet 1.uistate.xml" />
     <None Include="Assets\Knight Files\KY_effects\MagicEffectsPackFree\ReadMe.txt" />
     <None Include="Assets\Free Asset - 2D Handcrafted Art\Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\RPG.uistate.xml" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
       <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
@@ -124,6 +147,9 @@
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Users/afons/OneDrive/Documentos/GrandGame/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>

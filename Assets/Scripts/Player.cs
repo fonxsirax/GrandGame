@@ -36,10 +36,6 @@ public class Player : MonoBehaviour
         //game_control = GetComponent<Game_controller>();
         body = GetComponent<Rigidbody2D>();
         Timeact = 0;
-        referenceObject = GameObject.FindWithTag("GameOver_controller");
-        referenceScriptGame_controller = referenceObject.GetComponent<Game_controller>();
-
-
         //sprite = GetComponent<SpriteRenderer>();
         //Player_info player1 = new Player_info();
         //player1.name = "Knight";
@@ -51,12 +47,6 @@ public class Player : MonoBehaviour
     void Update()
     {
         //check if is dead
-        if (transform.position.y <= positionDead)
-        {
-            death();
-        }
-
-
         if (this_player.number == 1)
         {
             Player1Movements();
@@ -193,18 +183,18 @@ public class Player : MonoBehaviour
             energy--;
         }
     }
-    void death()
-    {
-        for (int i = 0; i < referenceScriptGame_controller.Characteres.Count; i++)
-        {
-            if (i + 1 == this_player.number)
-            {
-                referenceScriptGame_controller.Characteres.RemoveAt(i);
-                Destroy(gameObject);
-                break;
-            }
-        }
-    }
+    //void death()
+    //{
+    //    for (int i = 0; i < referenceScriptGame_controller.Characteres.Count; i++)
+    //    {
+    //        if (i + 1 == this_player.number)
+    //        {
+    //            referenceScriptGame_controller.Characteres.RemoveAt(i);
+    //            Destroy(gameObject);
+    //            break;
+    //        }
+    //    }
+    //}
 
     void Getdamage(int damage) {
             referenceScriptGame_controller.Characteres[this_player.number].currentLife -= damage;  
