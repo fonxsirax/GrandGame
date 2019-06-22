@@ -1,0 +1,2475 @@
+fileFormatVersion: 2
+guid: 1b5246903491d41468050cf17c8d599f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5177527279541028843
+    second: PC Computer - MapleStory - Manon_0
+  - first:
+      213: -6928517322243135754
+    second: PC Computer - MapleStory - Manon_1
+  - first:
+      213: -3035314482583999044
+    second: PC Computer - MapleStory - Manon_2
+  - first:
+      213: -2746770229838968667
+    second: PC Computer - MapleStory - Manon_3
+  - first:
+      213: -3297560977455385819
+    second: PC Computer - MapleStory - Manon_4
+  - first:
+      213: -7322905412188740709
+    second: PC Computer - MapleStory - Manon_5
+  - first:
+      213: -7758372010872858591
+    second: PC Computer - MapleStory - Manon_6
+  - first:
+      213: 1349239435141191729
+    second: PC Computer - MapleStory - Manon_7
+  - first:
+      213: -4335684140227882757
+    second: PC Computer - MapleStory - Manon_8
+  - first:
+      213: 8122338241014880258
+    second: PC Computer - MapleStory - Manon_9
+  - first:
+      213: -1114522727645137862
+    second: PC Computer - MapleStory - Manon_10
+  - first:
+      213: -3388754315841840513
+    second: PC Computer - MapleStory - Manon_11
+  - first:
+      213: 82493205808509737
+    second: PC Computer - MapleStory - Manon_12
+  - first:
+      213: -7673980896512108551
+    second: PC Computer - MapleStory - Manon_13
+  - first:
+      213: -3151266673085479131
+    second: PC Computer - MapleStory - Manon_14
+  - first:
+      213: 5077950891225834700
+    second: PC Computer - MapleStory - Manon_15
+  - first:
+      213: -8442290225371707669
+    second: PC Computer - MapleStory - Manon_19
+  - first:
+      213: -5803868562702630481
+    second: PC Computer - MapleStory - Manon_20
+  - first:
+      213: -6429502529906816468
+    second: PC Computer - MapleStory - Manon_21
+  - first:
+      213: 943874028521462632
+    second: PC Computer - MapleStory - Manon_22
+  - first:
+      213: -7677180909621080305
+    second: PC Computer - MapleStory - Manon_23
+  - first:
+      213: 6180141216912386620
+    second: PC Computer - MapleStory - Manon_24
+  - first:
+      213: 622924486147562118
+    second: PC Computer - MapleStory - Manon_25
+  - first:
+      213: 3818758626007356515
+    second: PC Computer - MapleStory - Manon_26
+  - first:
+      213: 5027691071071006312
+    second: PC Computer - MapleStory - Manon_27
+  - first:
+      213: -7676502741873583954
+    second: PC Computer - MapleStory - Manon_28
+  - first:
+      213: -686651738024084854
+    second: PC Computer - MapleStory - Manon_29
+  - first:
+      213: -5372362358728795446
+    second: PC Computer - MapleStory - Manon_30
+  - first:
+      213: -7557478454742225722
+    second: PC Computer - MapleStory - Manon_31
+  - first:
+      213: -3462879604921698447
+    second: PC Computer - MapleStory - Manon_32
+  - first:
+      213: 2865748959948742361
+    second: PC Computer - MapleStory - Manon_33
+  - first:
+      213: 4695738729200968403
+    second: PC Computer - MapleStory - Manon_34
+  - first:
+      213: -507126436900079907
+    second: PC Computer - MapleStory - Manon_35
+  - first:
+      213: -9127699493516594977
+    second: PC Computer - MapleStory - Manon_36
+  - first:
+      213: 3781562983435659099
+    second: PC Computer - MapleStory - Manon_37
+  - first:
+      213: -2161880135615734114
+    second: PC Computer - MapleStory - Manon_38
+  - first:
+      213: 7997631710927989141
+    second: PC Computer - MapleStory - Manon_39
+  - first:
+      213: -4841530993601288696
+    second: PC Computer - MapleStory - Manon_40
+  - first:
+      213: -3137322514918126492
+    second: PC Computer - MapleStory - Manon_41
+  - first:
+      213: -7214040204220321559
+    second: PC Computer - MapleStory - Manon_42
+  - first:
+      213: 2380241467207320188
+    second: PC Computer - MapleStory - Manon_43
+  - first:
+      213: -982356933415880675
+    second: PC Computer - MapleStory - Manon_44
+  - first:
+      213: 7603306470113435960
+    second: PC Computer - MapleStory - Manon_45
+  - first:
+      213: -7012353381080933005
+    second: PC Computer - MapleStory - Manon_46
+  - first:
+      213: -3902543394206436516
+    second: PC Computer - MapleStory - Manon_47
+  - first:
+      213: 4448761974321715932
+    second: PC Computer - MapleStory - Manon_48
+  - first:
+      213: -662054796069925266
+    second: PC Computer - MapleStory - Manon_49
+  - first:
+      213: 6567703700630531871
+    second: PC Computer - MapleStory - Manon_50
+  - first:
+      213: 6450982855857242106
+    second: PC Computer - MapleStory - Manon_51
+  - first:
+      213: -8266991166259871356
+    second: PC Computer - MapleStory - Manon_52
+  - first:
+      213: -3794901799089005598
+    second: PC Computer - MapleStory - Manon_53
+  - first:
+      213: 2969546785910601283
+    second: PC Computer - MapleStory - Manon_54
+  - first:
+      213: -2718844270639418343
+    second: PC Computer - MapleStory - Manon_55
+  - first:
+      213: -2700308842272014170
+    second: PC Computer - MapleStory - Manon_56
+  - first:
+      213: 5134992253503891332
+    second: PC Computer - MapleStory - Manon_57
+  - first:
+      213: 8399250371008291816
+    second: PC Computer - MapleStory - Manon_58
+  - first:
+      213: -1912999521043621915
+    second: PC Computer - MapleStory - Manon_59
+  - first:
+      213: 8178873070388192955
+    second: PC Computer - MapleStory - Manon_60
+  - first:
+      213: -2538242008299428289
+    second: PC Computer - MapleStory - Manon_61
+  - first:
+      213: 9191842792880059179
+    second: PC Computer - MapleStory - Manon_62
+  - first:
+      213: -8107999210300252085
+    second: PC Computer - MapleStory - Manon_63
+  - first:
+      213: 9220445937414246186
+    second: PC Computer - MapleStory - Manon_64
+  - first:
+      213: -3799719449603424474
+    second: PC Computer - MapleStory - Manon_65
+  - first:
+      213: 4453978277574895320
+    second: PC Computer - MapleStory - Manon_66
+  - first:
+      213: 4865429327902159011
+    second: PC Computer - MapleStory - Manon_67
+  - first:
+      213: 4864666025240516050
+    second: PC Computer - MapleStory - Manon_68
+  - first:
+      213: 8446358793779121438
+    second: PC Computer - MapleStory - Manon_69
+  - first:
+      213: 1382925634340600872
+    second: PC Computer - MapleStory - Manon_70
+  - first:
+      213: 4960274553303468948
+    second: PC Computer - MapleStory - Manon_71
+  - first:
+      213: -7481813272739294320
+    second: PC Computer - MapleStory - Manon_72
+  - first:
+      213: -6289628570008800067
+    second: PC Computer - MapleStory - Manon_73
+  - first:
+      213: 8495473377021949399
+    second: PC Computer - MapleStory - Manon_74
+  - first:
+      213: -2918995859946060187
+    second: PC Computer - MapleStory - Manon_75
+  - first:
+      213: -4467624348913402581
+    second: PC Computer - MapleStory - Manon_76
+  - first:
+      213: 5802257210811623690
+    second: PC Computer - MapleStory - Manon_77
+  - first:
+      213: -1171340940217755315
+    second: PC Computer - MapleStory - Manon_78
+  - first:
+      213: -7439240780329999622
+    second: PC Computer - MapleStory - Manon_79
+  - first:
+      213: 6274242818482335371
+    second: PC Computer - MapleStory - Manon_80
+  - first:
+      213: 3617057041292588112
+    second: PC Computer - MapleStory - Manon_81
+  - first:
+      213: 1072079231398615026
+    second: PC Computer - MapleStory - Manon_82
+  - first:
+      213: -8948406697286566786
+    second: PC Computer - MapleStory - Manon_83
+  - first:
+      213: 3646603640483680473
+    second: PC Computer - MapleStory - Manon_84
+  - first:
+      213: 5853649467178022137
+    second: PC Computer - MapleStory - Manon_85
+  - first:
+      213: 8313794605606471543
+    second: PC Computer - MapleStory - Manon_86
+  - first:
+      213: 6845263907675971264
+    second: PC Computer - MapleStory - Manon_87
+  - first:
+      213: -2437350479913669923
+    second: PC Computer - MapleStory - Manon_88
+  - first:
+      213: -7496078716753757585
+    second: PC Computer - MapleStory - Manon_89
+  - first:
+      213: -29416646824568249
+    second: PC Computer - MapleStory - Manon_90
+  - first:
+      213: -2175291250483426040
+    second: PC Computer - MapleStory - Manon_91
+  - first:
+      213: 6672184969902784645
+    second: PC Computer - MapleStory - Manon_92
+  - first:
+      213: -3627526312647228578
+    second: PC Computer - MapleStory - Manon_93
+  - first:
+      213: 8194613583005466782
+    second: PC Computer - MapleStory - Manon_94
+  - first:
+      213: -392496251278090912
+    second: PC Computer - MapleStory - Manon_95
+  - first:
+      213: 1072358020905614439
+    second: PC Computer - MapleStory - Manon_96
+  - first:
+      213: -7136615775932247094
+    second: PC Computer - MapleStory - Manon_97
+  - first:
+      213: 3198721931967698878
+    second: PC Computer - MapleStory - Manon_98
+  - first:
+      213: -7988286656990578690
+    second: PC Computer - MapleStory - Manon_99
+  - first:
+      213: 66008827926542259
+    second: PC Computer - MapleStory - Manon_100
+  - first:
+      213: 6021963006782766811
+    second: PC Computer - MapleStory - Manon_101
+  - first:
+      213: 2006834420155464525
+    second: PC Computer - MapleStory - Manon_102
+  - first:
+      213: -5753519546303356304
+    second: PC Computer - MapleStory - Manon_103
+  - first:
+      213: -7010682395583154817
+    second: PC Computer - MapleStory - Manon_104
+  - first:
+      213: -2446182826946090836
+    second: PC Computer - MapleStory - Manon_105
+  - first:
+      213: -994718866518927053
+    second: PC Computer - MapleStory - Manon_106
+  - first:
+      213: -7063450742565461587
+    second: PC Computer - MapleStory - Manon_107
+  - first:
+      213: -8888720820172823855
+    second: PC Computer - MapleStory - Manon_108
+  - first:
+      213: -8622800364035423901
+    second: PC Computer - MapleStory - Manon_109
+  - first:
+      213: 7661293055896804008
+    second: PC Computer - MapleStory - Manon_110
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2392
+        width: 200
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa38a4a444afae4f8b8714d488b058f
+      internalID: 5177527279541028843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2392
+        width: 202
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf73471e07cccc4e97f98cddfef0fe3
+      internalID: -6928517322243135754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 2392
+        width: 203
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b5bf98ef34d27469a61ad68ffee92e
+      internalID: -3035314482583999044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_3
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 2392
+        width: 203
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f28d27459e4e124894acfbf6a2c03dd
+      internalID: -2746770229838968667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_4
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 2392
+        width: 202
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a226441e03fc5040a2de2ba6704db23
+      internalID: -3297560977455385819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_5
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 2392
+        width: 218
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22ca906e86249b4e9d3b0220099487a
+      internalID: -7322905412188740709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_6
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 2392
+        width: 219
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593ffa541e0e9ff42a782cf5031811e9
+      internalID: -7758372010872858591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_8
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2392
+        width: 199
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7406a7f92b4e30b4088e5193701a11bf
+      internalID: -4335684140227882757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2103
+        width: 213
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbbd80b3f6f22c43acbf0894af708d0
+      internalID: 8122338241014880258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2103
+        width: 211
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460d2a0a89a77c34f9a9722d8e0631b5
+      internalID: -1114522727645137862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_11
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 2103
+        width: 210
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b735afec844ab2445be0cb93291d0a01
+      internalID: -3388754315841840513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_12
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 2103
+        width: 213
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9431b5c25218ccc4493b8daff3f4f1cc
+      internalID: 82493205808509737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_13
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2103
+        width: 213
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3223c0fdfd28ad941a4c449e22ffbdf5
+      internalID: -7673980896512108551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_14
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 2103
+        width: 215
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf42b28adcbf674e93ec21bc6cddeb1
+      internalID: -3151266673085479131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1790
+        width: 192
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729ac6c21119c3f449586c28dde96c0e
+      internalID: 5077950891225834700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_22
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1485
+        width: 221
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454960cba9802ef46ad43617d60ba4d3
+      internalID: 943874028521462632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_24
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1485
+        width: 219
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b37d737ff2a5104aad0dd9dfb3f39c2
+      internalID: 6180141216912386620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_28
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1485
+        width: 210
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda8bb2a0df46a449b3e8507014d12b8
+      internalID: -7676502741873583954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_29
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1485
+        width: 197
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38a9376814647d4182d9267d043b44a
+      internalID: -686651738024084854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_30
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 1485
+        width: 198
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd361092dfb33744a030c43dc8dd1b8
+      internalID: -5372362358728795446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_31
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1485
+        width: 194
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e47805ca5444644b5b7a7294d5e895
+      internalID: -7557478454742225722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_32
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 1485
+        width: 191
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e718f49ec0a38e438cd203f1348001e
+      internalID: -3462879604921698447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_38
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1485
+        width: 198
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc88435e32acc840ba6ff2d937cc9b6
+      internalID: -2161880135615734114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_39
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1485
+        width: 191
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b18de5264da5f49a7a370bde2a7083
+      internalID: 7997631710927989141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_40
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1485
+        width: 223
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acef6125fcfc5445b00bc5632973686
+      internalID: -4841530993601288696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_41
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1485
+        width: 211
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fff39f32ef197544a105e7a783749fd
+      internalID: -3137322514918126492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_42
+      rect:
+        serializedVersion: 2
+        x: 2643
+        y: 1485
+        width: 232
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d26a8e5d8474d459e81f3684a9b57d
+      internalID: -7214040204220321559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_43
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 1485
+        width: 254
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e78a1e48b715c142ba0bd8bf6ab8e1b
+      internalID: 2380241467207320188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_44
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 1485
+        width: 278
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397c1e1c6f66c094da2d0e19496058b2
+      internalID: -982356933415880675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_45
+      rect:
+        serializedVersion: 2
+        x: 3454
+        y: 1485
+        width: 294
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647adbc8a89ef174fa838a0dd24bd29d
+      internalID: 7603306470113435960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_46
+      rect:
+        serializedVersion: 2
+        x: 3764
+        y: 1485
+        width: 300
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c34a467a44c10e4e8d9aab04fe61c98
+      internalID: -7012353381080933005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_47
+      rect:
+        serializedVersion: 2
+        x: 4078
+        y: 1485
+        width: 278
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9050295e3fc10f429e522d7a7060882
+      internalID: -3902543394206436516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_48
+      rect:
+        serializedVersion: 2
+        x: 4380
+        y: 1485
+        width: 294
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b7cc795ba28a64a94c3b32d166380d
+      internalID: 4448761974321715932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_49
+      rect:
+        serializedVersion: 2
+        x: 4691
+        y: 1485
+        width: 299
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd8134ee4599f546a728477552d9d09
+      internalID: -662054796069925266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_50
+      rect:
+        serializedVersion: 2
+        x: 5007
+        y: 1485
+        width: 253
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff71dc86a4a9f9a4896301f46aaeb559
+      internalID: 6567703700630531871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_51
+      rect:
+        serializedVersion: 2
+        x: 5274
+        y: 1485
+        width: 213
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bb2cffe32efeb44ab1631a967259a4
+      internalID: 6450982855857242106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_52
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1318
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c322c868ab53c94aa3d9c36bef4cc61
+      internalID: -8266991166259871356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_53
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1318
+        width: 87
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71d43b79d6564a4cb72733a433d1bcc
+      internalID: -3794901799089005598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_54
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1318
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336148bdab921ce4a95badfeea0510b4
+      internalID: 2969546785910601283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_55
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1318
+        width: 96
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6ad57798a2e6543abf06203b8fd745
+      internalID: -2718844270639418343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_56
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1318
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253dc63fe2b54474ba3073c8b708d571
+      internalID: -2700308842272014170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_57
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1318
+        width: 97
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12467beacfc0134087f13b8625a4d79
+      internalID: 5134992253503891332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_58
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1320
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab2518a450d80e469ad703f1f966cdf
+      internalID: 8399250371008291816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_59
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 982
+        width: 199
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36c4cd8fbbcab84581c1fdbc70415b1
+      internalID: -1912999521043621915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_60
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 982
+        width: 207
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dd30657ecb0c04ab0481b5a3bf338a
+      internalID: 8178873070388192955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_61
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 982
+        width: 213
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631ad2d8cd8022749a55bffd5de37ddc
+      internalID: -2538242008299428289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_62
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 982
+        width: 213
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979e0b8931baa5a4aa78cde0cda809c5
+      internalID: 9191842792880059179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_63
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 982
+        width: 212
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4647252f3910c564684b3f34154d2e5e
+      internalID: -8107999210300252085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_64
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 982
+        width: 212
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e7cee83a1666b4c92253380d0e6d19
+      internalID: 9220445937414246186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_65
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 982
+        width: 214
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d028441912360264aadd10533a615901
+      internalID: -3799719449603424474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_66
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 982
+        width: 216
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9da892f0150b24e9e71dd6eaad1491
+      internalID: 4453978277574895320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_67
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 982
+        width: 216
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b331bc84a7703da4bbf0e06a26ed7d22
+      internalID: 4865429327902159011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_68
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 982
+        width: 225
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc927b9f1621c83408a6d3946d5c5dc4
+      internalID: 4864666025240516050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_69
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 982
+        width: 242
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bd73c429bc8b74cbf030b0598e0297
+      internalID: 8446358793779121438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_70
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 982
+        width: 265
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362b840c87dd079469b3ab988b353d33
+      internalID: 1382925634340600872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_71
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 982
+        width: 269
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdda26f2c7441b49a3828fe51e3fc19
+      internalID: 4960274553303468948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_72
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 982
+        width: 270
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b478aaa2146fb4bbc617630e43bf5b
+      internalID: -7481813272739294320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_73
+      rect:
+        serializedVersion: 2
+        x: 3478
+        y: 982
+        width: 272
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2aff2aed4c91b4b94fa01cd79af56d
+      internalID: -6289628570008800067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_74
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 982
+        width: 214
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854eb55b7b750a848980b5b9bdab3476
+      internalID: 8495473377021949399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_75
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 982
+        width: 210
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75d16c329047574989e8772ff391324
+      internalID: -2918995859946060187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_76
+      rect:
+        serializedVersion: 2
+        x: 4232
+        y: 982
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea263b0371d2ab47ad2443c19734816
+      internalID: -4467624348913402581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_77
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 855
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b311ddfccca6d44c92b066d1c06edc2
+      internalID: 5802257210811623690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_78
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 855
+        width: 86
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5667af06d779948aa4e881d9a49edb
+      internalID: -1171340940217755315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_79
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 855
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ebf5b5607d2b445bc7f49c47590626
+      internalID: -7439240780329999622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_80
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 853
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10d984a53c685243bd8e8b531792562
+      internalID: 6274242818482335371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_81
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 525
+        width: 200
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a9c939dac71b649a5f980d75bd87c2
+      internalID: 3617057041292588112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_82
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 526
+        width: 278
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cfc0215050ad447b65667f8a85e084
+      internalID: 1072079231398615026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_83
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 526
+        width: 294
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242f01e2f3fdb454cb5e290d7a7ff5c1
+      internalID: -8948406697286566786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_84
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 526
+        width: 300
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e90cd99649074b4780063ad8f9abd67
+      internalID: 3646603640483680473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_85
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 526
+        width: 303
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d5542676d053c45af5d6a2ba6ebe0e
+      internalID: 5853649467178022137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_86
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 526
+        width: 307
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf88348ac5a0a24aa721831137a13a6
+      internalID: 8313794605606471543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_87
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 526
+        width: 307
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cdf7f4643b4b34aa90e0e5686c28d7
+      internalID: 6845263907675971264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_88
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 526
+        width: 308
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2b64488be0768499bdd393de040c1d
+      internalID: -2437350479913669923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_89
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 526
+        width: 305
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7abe3525dfc7a49a6f57e32be9f176
+      internalID: -7496078716753757585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_90
+      rect:
+        serializedVersion: 2
+        x: 2833
+        y: 526
+        width: 304
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed2c2061f984de43a5953d02d8dabd8
+      internalID: -29416646824568249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_91
+      rect:
+        serializedVersion: 2
+        x: 3158
+        y: 526
+        width: 300
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a901f92b9b18d54ba12a0dfd05ca55f
+      internalID: -2175291250483426040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_92
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 526
+        width: 283
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b07bc92c1e0244da4a326bf52a8876
+      internalID: 6672184969902784645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_93
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 374
+        width: 110
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25b785e36add9f49b9f15b0a3ba545b
+      internalID: -3627526312647228578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_94
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 374
+        width: 128
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b504770a0f6034449d3eabec7af8f9e
+      internalID: 8194613583005466782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_95
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 37
+        width: 192
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77964dd3210ec8f44accdf3c1e52799f
+      internalID: -392496251278090912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_96
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 239
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263db21e903f51847bfb5555d07bb2bc
+      internalID: 1072358020905614439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_97
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 37
+        width: 192
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3952bc6f44f82fc49aa1cbc488948eed
+      internalID: -7136615775932247094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_98
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 239
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9c54f77c317a34aa56ef2a54d02928
+      internalID: 3198721931967698878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_99
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 37
+        width: 191
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c22532dcdb88744e80e5a4e1ed68cd4
+      internalID: -7988286656990578690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_100
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 37
+        width: 197
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b505b639ef86d74c853173e8775470d
+      internalID: 66008827926542259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_101
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 37
+        width: 213
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62a6b62ad471b848af84b0785b19124
+      internalID: 6021963006782766811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_102
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 37
+        width: 216
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dbdd9b0a1b4f84a92ae0a023267eb8
+      internalID: 2006834420155464525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_103
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 37
+        width: 216
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123ba46e30a306b429e307431ba56dd2
+      internalID: -5753519546303356304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_104
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 37
+        width: 216
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd01647e00697441ae28a95862698e8
+      internalID: -7010682395583154817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_105
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 229
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a6c02fe1b1c4348aa297ee7e794885
+      internalID: -2446182826946090836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_106
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 229
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2503bf7e51dbb439bde58b3bb988d7
+      internalID: -994718866518927053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_107
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 215
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e06903e6c115b44bd612a780b3738b
+      internalID: -7063450742565461587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_108
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 213
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67e38413a7352842bd53dd9f32e9bd8
+      internalID: -8888720820172823855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_109
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 41
+        width: 208
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5e21ad4160ebb4c85d27357bf0b405
+      internalID: -8622800364035423901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Manon_110
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 45
+        width: 203
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bc713aa44e1a04c9b7751b32f1f6ff
+      internalID: 7661293055896804008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7eab14c1d33c042468707000fd8e5c9d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

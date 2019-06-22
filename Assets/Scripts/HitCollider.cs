@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HitCollider : MonoBehaviour
 {
-    private float damage = 10f;
+    private float damage = 4f;
     public Animator animator;
     public Player_info owner;
 

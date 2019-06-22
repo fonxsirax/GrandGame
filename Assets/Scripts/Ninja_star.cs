@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Ninja_star : MonoBehaviour
 {
-    public GameObject target;
     public GameObject owner;
-    public Animator animator;
+    private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
         //lifeTime = Time.time;
-        animator.GetComponent<Animator>();
-        target.GetComponents<Player_info>();
+        animator = GetComponent<Animator>();
         owner.GetComponent<Player_info>();
     }
     private void Awake()
@@ -27,9 +25,9 @@ public class Ninja_star : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "Knight") {
+        if ((collision.gameObject.tag == "Player") && (collision.gameObject.name != "Ninja")) {
             animator.SetTrigger("explosion");
-            target.GetComponent<Player_info>().Hurt(5,owner.GetComponent<Player_info>().turnedLeft);
+            collision.gameObject.GetComponent<Player_info>().Hurt(5,owner.GetComponent<Player_info>().turnedLeft);
             Destroy(gameObject,0.3f);
         }
         if (collision.gameObject.name == "Path") {

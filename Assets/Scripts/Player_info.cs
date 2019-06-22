@@ -10,16 +10,16 @@ public class Player_info : MonoBehaviour
     //private Player player;
     public GameControl control;
     public int aux = 0;
-    public string name;
     public int number = 1;
     public float totaLife = 100;
-    public float currentLife;
+    public float currentLife = 100;
     public float totalMana = 100;
     public float currentMana;
-    public float pressingMana =0;  //
-    public int skill;              //
+    public float pressingMana =0;
+    public float manaspeed = 1;          
     private float positionDead = -20f;
     public GameObject effect;
+    private bool invulnerable = false;
 
     private float armor = 8;
     private float power = 2;
@@ -30,48 +30,25 @@ public class Player_info : MonoBehaviour
     public bool turnedLeft = false;
     public bool Is_walking = false;
     public float move;
-    public float speed = 9;
+    public float speed;
+    public bool On_floor;
+
+    public Special_Skills skillScript;
     // Start is called before the first frame update
     void Start()
     {
+        skillScript = GetComponent<Special_Skills>();
         body = GetComponent<Rigidbody2D>();
         animator = this.GetComponent<Animator>();
 
        // player = this.GetComponent<Player>();
-        currentLife = totaLife;
-        currentMana = 0;
+        //currentLife = totaLife;
+        //currentMana = 100;
 
     }
 
     // Update is called once per frame
     void FixedUpdate() {
-        body.velocity = new Vector2(move * speed, body.velocity.y);
-        if ((move > 0 && turnedLeft) || (!turnedLeft && move < 0))
-        {
-            aux = 19;
-            Flip();
-        }
-        if (number == 1)
-        {
-            Player1ManaPressing();
-        }
-        else if (number == 2) {
-            Player2ManaPressing();
-        }
-    }
-    void Update()
-    {
-        if (number == 1) { move = Input.GetAxis("Horizontal"); }
-        else if (number == 2) { move = Input.GetAxis("2Horizontal"); }
-        currentMana += 0.01f;
-        if (currentMana > totalMana)
-        {
-            currentMana = 100;
-        }
-        if (currentLife < 0)
-        {
-            currentLife = 0;
-        }
         if (move > 0)
         {
             animator.SetBool("walk", true);
@@ -87,8 +64,36 @@ public class Player_info : MonoBehaviour
             Is_walking = false;
             animator.SetBool("walk", false);
         }
-        if ((currentLife == 0) || transform.position.y <= positionDead) {
-            death();
+        body.velocity = new Vector2(move * speed, body.velocity.y);
+        if ((move > 0 && turnedLeft) || (!turnedLeft && move < 0))
+        {
+            Flip();
+        }
+
+    }
+    void Update()
+    {
+        if (number == 1)
+        {
+            Player1ManaPressing();
+        }
+        else if (number == 2)
+        {
+            Player2ManaPressing();
+        }
+        if (number == 1) { move = Input.GetAxis("Horizontal"); }
+        else if (number == 2) { move = Input.GetAxis("2Horizontal"); }
+        currentMana += 0.01f * manaspeed;
+        if (currentMana > totalMana)
+        {
+            currentMana = 100;
+        }
+        if (currentLife < 0)
+        {
+            currentLife = 0;
+        }
+                if ((currentLife == 0) || transform.position.y <= positionDead) {
+            Death();
         }
     }
     void Player2ManaPressing()
@@ -96,7 +101,7 @@ public class Player_info : MonoBehaviour
         if (Input.GetButton("2Fire2"))
         {
             effect.SetActive(true);
-            pressingMana += 0.3f;
+            pressingMana += 0.6f;
             if (pressingMana > currentMana)
             {
                 pressingMana = currentMana;
@@ -109,19 +114,19 @@ public class Player_info : MonoBehaviour
             {
                 currentMana -= 33f;
                 pressingMana = 0;
-                skill = 1;
+                skillScript.Skill1();
             }
             else if (pressingMana > 60f && pressingMana < 95f)
             {
                 currentMana -= 66f;
                 pressingMana = 0;
-                skill = 2;
+                skillScript.Skill2();
             }
             else if (pressingMana > 95f)
             {
                 currentMana = 0;
                 pressingMana = 0;
-                skill = 3;
+                skillScript.Skill3();
             }
             pressingMana = 0;
         }
@@ -131,7 +136,7 @@ public class Player_info : MonoBehaviour
         if (Input.GetButton("Fire2"))
         {
             effect.SetActive(true);
-            pressingMana += 0.3f;
+            pressingMana += 0.6f;
             if (pressingMana > currentMana)
             {
                 pressingMana = currentMana;
@@ -144,37 +149,63 @@ public class Player_info : MonoBehaviour
             {
                 currentMana -= 33f;
                 pressingMana = 0;
-                skill = 1;
+                skillScript.Skill1();
             }
             else if (pressingMana > 60f && pressingMana < 95f)
             {
                 currentMana -= 66f;
                 pressingMana = 0;
-                skill = 2;
+                skillScript.Skill2();
             }
             else if (pressingMana > 95f)
             {
                 currentMana = 0;
                 pressingMana = 0;
-                skill = 3;
+                skillScript.Skill3();
             }
             pressingMana = 0;
         }
     }
     public void Hurt(float damage, bool turnedLeft){
-
-        //float impact = 2000f;
-        float impact = 3000 - 2 * currentLife * armor;
-        //float impact = 20000;
-        animator.SetTrigger("hurt");
-        currentLife -= damage;
+        if (!invulnerable) {
+            if (pressingMana > 0)
+            {
+                currentMana -= pressingMana;
+                pressingMana = 0;
+                //animator critico.
+                damage *= 2;
+            }
+            animator.SetTrigger("hurt");
+            //float impact = 2000f;
+            float impact = (100 / currentLife) * 160 / armor;
+            //float impact = 20000;
+            currentLife -= damage;
+            Hit(impact, (100 - ((int)currentLife) / 10 + 1), turnedLeft);
+        }
+    }
+    public void Hit(float impact,int times, bool turnedLeft) {
         if (turnedLeft)
         {
-
-            body.AddRelativeForce(new Vector3(impact * (-1), (impact) / 20, 0));    
+            if (!this.turnedLeft)
+            {
+                Flip();
+            }
+            for (int i = 0; i < times; i++)
+            {
+                body.AddRelativeForce(new Vector3(impact * (-1), (impact) / 20, 0));
+            }
         }
-        else {
-            body.AddRelativeForce(new Vector3(impact, impact/20, 0));
+        else
+        {
+            if (this.turnedLeft)
+            {
+                Flip();
+            }
+            for (int i = 0; i < times; i++)
+            {
+                body.AddRelativeForce(new Vector3(impact, impact / 20, 0));
+            }
+            
         }
     }
     public float getPower
@@ -189,8 +220,18 @@ public class Player_info : MonoBehaviour
         turnedLeft = !turnedLeft;
         transform.Rotate(0f, 180f, 0f);
     }
-    public void death() {
-        control.RemoveChar(name);
+    public void Invulnerable(bool active)
+    {
+        if (active)
+        {
+            invulnerable = true;
+        }
+        else {
+            invulnerable = false;
+        }
+    }
+    public void Death() {
+        //control.RemoveChar(name);
         Destroy(gameObject);
 
     }
@@ -200,5 +241,18 @@ public class Player_info : MonoBehaviour
         {
             return this.body;
         }
+    }
+    void OnCollisionEnter2D(Collision2D theCollision)
+    {
+        if (theCollision.gameObject.tag == "Path" || theCollision.gameObject.tag == "Player")
+        {
+            On_floor = true;
+        }
+    }
+    public float GetSpeed() {
+        return this.speed;
+    }
+    public void SetSpeed(float speed) {
+        this.speed = speed;
     }
 }

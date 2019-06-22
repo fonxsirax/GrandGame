@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Start_Button : MonoBehaviour
 {
+    public 
     // Start is called before the first frame update
     void Start()
     {

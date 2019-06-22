@@ -10,14 +10,14 @@ public class StateBehavior : StateMachineBehaviour
     public float horizontalForce;
     public float verticalForce;
 
-    protected Hero fighter;
+    protected Ninja fighter;
 
     override public void OnStateEnter(Animator animator,
                                       AnimatorStateInfo stateInfo, int layerIndex)
     {
         if (fighter == null)
         {
-            fighter = animator.gameObject.GetComponent<Hero>();
+            fighter = animator.gameObject.GetComponent<Ninja>();
         }
 
         fighter.currentState = behaviorState;

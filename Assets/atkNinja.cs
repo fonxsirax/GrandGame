@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class atkNinja : StateMachineBehaviour
 {
-    private Hero player;
+    private Ninja player;
     override public void OnStateEnter(Animator animator,
                                           AnimatorStateInfo stateInfo, int layerIndex)
     {
         if (player == null)
         {
-            player = animator.gameObject.GetComponent<Hero>();
+            player = animator.gameObject.GetComponent<Ninja>();
         }
         player.sword.SetActive(true);
 
