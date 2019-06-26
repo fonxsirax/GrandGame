@@ -33,7 +33,7 @@ public class WarriorFury : MonoBehaviour
         if ((collision.gameObject.name != "Warrior") && (collision.gameObject.tag == "Player"))
         {
             collision.attachedRigidbody.AddForce(new Vector2(10,80));
-            collision.gameObject.GetComponent<Player_info>().Hurt(0.5f, GetComponentInParent<Player_info>().turnedLeft);
+            collision.gameObject.GetComponent<Player_info>().Hurt(0.5f, GetComponentInParent<Player_info>().turnedLeft,"Warrior");
         }
     }
 

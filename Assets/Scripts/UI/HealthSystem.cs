@@ -19,11 +19,14 @@ public class HealthSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        HP.value = (player.GetComponent<Player_info>().currentLife)/100;
-        MP.value = (player.GetComponent<Player_info>().currentMana)/100;
-        Energy.value = (player.GetComponent<Player_info>().pressingMana)/100;
-        if (!player.active) {
-            gameObject.SetActive(false);
+        if (player != null) {
+            HP.value = (player.GetComponent<Player_info>().currentLife) / 100;
+            MP.value = (player.GetComponent<Player_info>().currentMana) / 100;
+            Energy.value = (player.GetComponent<Player_info>().pressingMana) / 100;
+            if (!player.active)
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
     private void FixedUpdate()

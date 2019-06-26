@@ -23,9 +23,11 @@ public class Player : MonoBehaviour
     private float initialSpeed = 9;
     public float radius = 0.2f;
     // Use this for initialization
+    public GameObject bar;
 
     void Start()
     {
+        bar.SetActive(true);
         animator = this.GetComponent<Animator>();
         this_player = this.GetComponent<Player_info>();
         //game_control = GetComponent<Game_controller>();
@@ -46,13 +48,19 @@ public class Player : MonoBehaviour
         {
             Player1Movements();
         }
-        else if (this_player.number == 2) {
+        else if (this_player.number == 2)
+        {
             Player2Movements();
+        }
+        else if (this_player.number == 2)
+        {
+            Player3Movements();
         }
     }
     private void FixedUpdate()
     {
-        if (energy == 0 && !this_player.On_floor) {
+        if (energy == 0 && !this_player.On_floor)
+        {
             animator.SetBool("jump", true);
         }
         // separado para o futuro
@@ -79,7 +87,7 @@ public class Player : MonoBehaviour
             body.velocity = new Vector2(body.velocity.x, 0f);
             body.AddForce(new Vector2(0f, jumpForce));
             Is_jumping = false;
-            
+
         }
         if (this.this_player.On_floor)
         {
@@ -92,20 +100,30 @@ public class Player : MonoBehaviour
             animator.SetBool("dash", false);
             dashWind.SetActive(false);
         }
-        if (this_player.number == 1) {
+        if (this_player.number == 1)
+        {
             if (body.velocity.y > 0f && !Input.GetButton("Jump"))
             {
                 body.velocity += Vector2.up * -0.8f;
             }
         }
-        else if (this_player.number == 2) {
+        else if (this_player.number == 2)
+        {
             if (body.velocity.y > 0f && !Input.GetButton("2Jump"))
             {
                 body.velocity += Vector2.up * -0.8f;
             }
         }
+        else if (this_player.number == 3)
+        {
+            if (body.velocity.y > 0f && !Input.GetButton("3Jump"))
+            {
+                body.velocity += Vector2.up * -0.8f;
+            }
+        }
     }
-    void Player1Movements() {
+    void Player1Movements()
+    {
 
         if (this_player.Is_walking)
         {
@@ -135,7 +153,45 @@ public class Player : MonoBehaviour
         //double jump.
         if (Input.GetButtonDown("Jump") && energy > 0)
         {
-           this_player.On_floor = false;
+            this_player.On_floor = false;
+            body.velocity = new Vector2(body.velocity.x, 0f);
+            body.AddForce(new Vector2(0f, jumpForce));
+            //animator.SetBool("jump", true);
+            energy--;
+        }
+    }
+    void Player3Movements()
+    {
+
+        if (this_player.Is_walking)
+        {
+            if (Input.GetButtonDown("3Fire2") && Time.time - CdDash > 1f)
+            {
+                animator.SetBool("dash", true);
+                dashWind.SetActive(true);
+                CdDash = Time.time; //to turn dash off
+                energy = 0;
+            }
+        }
+        else
+        {
+            this_player.speed = initialSpeed;
+        }
+
+        if (Input.GetButtonDown("3Fire1"))
+        {
+            animator.SetBool("atk", true);
+            //sword.SetActive(true);
+        }
+        else
+        {
+            animator.SetBool("atk", false);
+            //sword.SetActive(false);
+        }
+        //double jump.
+        if (Input.GetButtonDown("3Jump") && energy > 0)
+        {
+            this_player.On_floor = false;
             body.velocity = new Vector2(body.velocity.x, 0f);
             body.AddForce(new Vector2(0f, jumpForce));
             //animator.SetBool("jump", true);

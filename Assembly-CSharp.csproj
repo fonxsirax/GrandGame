@@ -73,6 +73,9 @@
     <Compile Include="Assets\PinwheelFantasyEffect\Script\FairyMeteor.cs" />
     <Compile Include="Assets\PinwheelFantasyEffect\Script\Spin.cs" />
     <Compile Include="Assets\PinwheelFantasyEffect\Script\Test.cs" />
+    <Compile Include="Assets\Scripts\Archer\Archer.cs" />
+    <Compile Include="Assets\Scripts\Archer\Arrow.cs" />
+    <Compile Include="Assets\Scripts\Archer\Frog.cs" />
     <Compile Include="Assets\Scripts\Game_controller.cs" />
     <Compile Include="Assets\Scripts\GameControl.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
@@ -80,6 +83,8 @@
     <Compile Include="Assets\Scripts\HeroStates.cs" />
     <Compile Include="Assets\Scripts\HitCollider.cs" />
     <Compile Include="Assets\Scripts\King_Arthur.cs" />
+    <Compile Include="Assets\Scripts\MultipleCameraTargets.cs" />
+    <Compile Include="Assets\Scripts\NegativeStatus.cs" />
     <Compile Include="Assets\Scripts\Ninja.cs" />
     <Compile Include="Assets\Scripts\Ninja_star.cs" />
     <Compile Include="Assets\Scripts\Parallax_Effect.cs" />

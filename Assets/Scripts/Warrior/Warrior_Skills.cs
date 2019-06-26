@@ -54,7 +54,8 @@ public class Warrior_Skills : Special_Skills
         {
             effect3.SetActive(false);
             dragon.SetActive(true);
-            dragon.GetComponent<Player_info>().currentLife  = owner.GetComponent<Player_info>().currentLife;
+            dragon.GetComponent<Player_info>().currentLife = owner.GetComponent<Player_info>().currentLife;
+            dragon.GetComponent<Player_info>().lives = owner.GetComponent<Player_info>().lives;
             dragon.GetComponent<Player_info>().number = owner.GetComponent<Player_info>().number;
             dragon.GetComponent<Player_info>().currentMana = 0;
             dragon.GetComponent<Player_info>().manaspeed = 0;

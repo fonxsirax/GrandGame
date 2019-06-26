@@ -21,9 +21,9 @@ public class FireField : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if ((collision.gameObject.name != "Warrior") && (collision.gameObject.tag == "Player"))
+        if ((collision.gameObject.name != "Dragon") && (collision.gameObject.tag == "Player"))
         {
-            collision.gameObject.GetComponent<Player_info>().Hurt(0.5f, collision.gameObject.GetComponent<Player_info>().turnedLeft);
+            collision.gameObject.GetComponent<Player_info>().Hurt(0.5f, collision.gameObject.GetComponent<Player_info>().turnedLeft,"Warrior");
         }
     }
 

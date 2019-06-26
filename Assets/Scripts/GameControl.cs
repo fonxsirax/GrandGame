@@ -1,31 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class GameControl : MonoBehaviour
 {
-    public GameObject player1;
-    public GameObject player2;
-    public GameObject player3;
     public int aux = 0;
 
     public List<string> Characteres = new List<string>();
 
+    public GameObject panelGameover;
+    public GameObject panelStartGame;
+    public GameObject imageWinner;
+
+    public Sprite wizardSprite;
+    public Sprite warriorSprite;
+    public Sprite ninjaSprite;
+    public Sprite archerSprite;
+
     // Start is called before the first frame update
     private void Awake()
     {
-        if (player1 != null)
-        {
-            Characteres.Add(player1.GetComponent<Player_info>().name);
-        }
-        if (player2 != null)
-        {
-            Characteres.Add(player2.GetComponent<Player_info>().name);
-        }
-        if (player3 != null)
-        {
-            Characteres.Add(player3.GetComponent<Player_info>().name);
-        }
+
     }
     void Start()
     {
@@ -38,7 +34,22 @@ public class GameControl : MonoBehaviour
     void Update()
     {
         if (Characteres.Count == 1) {
-            aux = 19;
+            panelGameover.SetActive(true);
+            switch (Characteres[0]) {
+                case "Warrior":
+                    imageWinner.GetComponent<Image>().sprite = warriorSprite;
+                    break;
+                case "Ninja":
+                    imageWinner.GetComponent<Image>().sprite = ninjaSprite;
+                    break;
+                case "Wizard":
+                    imageWinner.GetComponent<Image>().sprite = wizardSprite;
+                    break;
+                case "Archer":
+                    imageWinner.GetComponent<Image>().sprite = archerSprite;
+                    break;
+            }
+            Characteres.RemoveAt(0);
         }
         
     }
@@ -46,4 +57,9 @@ public class GameControl : MonoBehaviour
     {
         Characteres.Remove(name);
     }
+
+    public void LoadScene() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
 }

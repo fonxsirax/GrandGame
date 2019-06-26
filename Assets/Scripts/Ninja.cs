@@ -47,6 +47,10 @@ public class Ninja : MonoBehaviour
         else if (this_player.number == 2) {
             Player2Movements();
         }
+        else if (this_player.number == 3)
+        {
+            Player3Movements();
+        }
     }
     void FixedUpdate() {
 
@@ -93,9 +97,9 @@ public class Ninja : MonoBehaviour
             //
         }
     }
+
     void Player2Movements()
     {
-
         if (Is_jumping)
         {
             animator.SetBool("jump", false);
@@ -125,6 +129,38 @@ public class Ninja : MonoBehaviour
             energy--;
         }
     }
+
+    public void Player3Movements() {
+        if (Is_jumping)
+        {
+            animator.SetBool("jump", false);
+            if (Input.GetButton("2Fire2") && energy > 0)
+            {
+                aux = 19;
+                animator.SetTrigger("duck");
+                ThrowStar();
+                energy--;
+                //Instantiate(star, firepoint.position, firepoint.rotation);
+                // shuriken
+            }
+        }
+        if (Input.GetButtonDown("3Fire1"))
+        {
+            animator.SetTrigger("atk");
+        }
+        //double jump.
+        if (Input.GetButtonDown("3Jump") && energy > 0)
+        {
+            animator.SetBool("jump", true);
+            this_player.On_floor = false;
+            Is_jumping = true;
+            body.velocity = new Vector2(body.velocity.x, 0f);
+            body.AddForce(new Vector2(0f, jumpForce));
+            //animator.SetBool("jump", true);
+            energy--;
+        }
+    }
+
     public void ThrowStar()
     {
         star.SetActive(true);
@@ -132,7 +168,7 @@ public class Ninja : MonoBehaviour
         star.SetActive(false);
         energy--;
     }
-    //get and set
+
     public Rigidbody2D Body
     {
         get

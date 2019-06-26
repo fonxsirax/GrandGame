@@ -30,14 +30,14 @@ public class Fireball : MonoBehaviour {
         Destroy(gameObject, 0.5f);
 
         if ((col.gameObject.name != "Wizard") && (col.gameObject.tag == "Player")) {
-            col.gameObject.GetComponent<Player_info>().Hurt(20, col.gameObject.GetComponent<Player_info>().turnedLeft);
+            col.gameObject.GetComponent<Player_info>().Hurt(20, col.gameObject.GetComponent<Player_info>().turnedLeft,"Wizard");
         }
     }
 
     void OnParticleCollision(GameObject other)
     {
         if((other.gameObject.name != "Wizard") && (other.gameObject.tag == "Player")) {
-            other.gameObject.GetComponent<Player_info>().Hurt(1, other.gameObject.GetComponent<Player_info>().turnedLeft);
+            other.gameObject.GetComponent<Player_info>().Hurt(1, other.gameObject.GetComponent<Player_info>().turnedLeft,"Wizard");
             other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(50,10),ForceMode2D.Force);
         }
         //ParticlePhysicsExtensions.GetCollisionEvents(particleLauncher, other, collisionEvents);

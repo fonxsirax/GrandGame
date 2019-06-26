@@ -27,7 +27,7 @@ public class Ninja_star : MonoBehaviour
     {
         if ((collision.gameObject.tag == "Player") && (collision.gameObject.name != "Ninja")) {
             animator.SetTrigger("explosion");
-            collision.gameObject.GetComponent<Player_info>().Hurt(5,owner.GetComponent<Player_info>().turnedLeft);
+            collision.gameObject.GetComponent<Player_info>().Hurt(1,owner.GetComponent<Player_info>().turnedLeft,"Ninja");
             Destroy(gameObject,0.3f);
         }
         if (collision.gameObject.name == "Path") {

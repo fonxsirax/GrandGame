@@ -36,7 +36,7 @@ public class FairyMeteor : MonoBehaviour {
         //To do > fix that
         if ((collision.gameObject.name != "Wizard") && (collision.gameObject.tag == "Player"))
         {
-            collision.gameObject.GetComponent<Player_info>().Hurt(10, !collision.gameObject.GetComponent<Player_info>().turnedLeft);
+            collision.gameObject.GetComponent<Player_info>().Hurt(10, !collision.gameObject.GetComponent<Player_info>().turnedLeft,"Wizard");
             //collision.gameObject.GetComponent<Player_info>().Hit(2500, !collision.gameObject.GetComponent<Player_info>().turnedLeft);
             Destroy(gameObject, 5);
         }

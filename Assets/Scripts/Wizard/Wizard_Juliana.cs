@@ -54,6 +54,10 @@ public class Wizard_Juliana : MonoBehaviour
         {
             Is_jumping = true;
         }
+        if (Input.GetButtonDown("3Jump") && energy > 0 && this_player.number == 3)
+        {
+            Is_jumping = true;
+        }
     }
     private void FixedUpdate()
     {
@@ -63,6 +67,10 @@ public class Wizard_Juliana : MonoBehaviour
         }
         if (this_player.number == 2) {
             Player2Movements();
+        }
+        if (this_player.number == 3)
+        {
+            Player3Movements();
         }
     }
     public void Player1Movements() {
@@ -86,6 +94,30 @@ public class Wizard_Juliana : MonoBehaviour
             //animator.SetBool("jump", true);
             energy--;
             Is_jumping = false;   
+        }
+    }
+    public void Player3Movements() {
+        if (Input.GetButtonDown("3Fire1"))
+        {
+            animator.SetBool("atk", true);
+            Projectile();
+        }
+        else
+        {
+            animator.SetBool("atk", false);
+        }
+        if (Input.GetButtonDown("3Fire2"))
+        {
+            Wind();
+        }
+        if (Is_jumping)
+        {
+            this_player.On_floor = false;
+            body.velocity = new Vector2(body.velocity.x, 0f);
+            body.AddForce(new Vector2(0f, jumpForce));
+            //animator.SetBool("jump", true);
+            energy--;
+            Is_jumping = false;
         }
     }
     public void Player2Movements() {

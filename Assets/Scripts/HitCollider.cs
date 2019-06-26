@@ -18,7 +18,7 @@ public class HitCollider : MonoBehaviour
         Player_info somebody = other.gameObject.GetComponent<Player_info>();
         if (somebody != null && somebody != owner)
         {
-			somebody.Hurt(damage,owner.turnedLeft);
+			somebody.Hurt(damage,owner.turnedLeft,owner.gameObject.name);
         }
         //else {
         //    aux = 23;

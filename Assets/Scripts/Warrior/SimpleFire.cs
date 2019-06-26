@@ -23,9 +23,9 @@ public class SimpleFire : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if ((collision.gameObject.name != "Warrior") && (collision.gameObject.tag == "Player"))
+        if ((collision.gameObject.name != "Dragon") && (collision.gameObject.tag == "Player"))
         {
-            collision.gameObject.GetComponent<Player_info>().Hurt(5, GetComponentInParent<Player_info>().turnedLeft);
+            collision.gameObject.GetComponent<Player_info>().Hurt(5, GetComponentInParent<Player_info>().turnedLeft,"Warrior");
         }
     }
 }

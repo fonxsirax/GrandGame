@@ -50,7 +50,7 @@ public class Wizard_projectile : MonoBehaviour
         if ((collision.gameObject.tag == "Player") && (collision.gameObject.name != "Wizard"))
         {
             animator.SetTrigger("explosion");
-            collision.gameObject.GetComponent<Player_info>().Hurt(2, owner.GetComponent<Player_info>().turnedLeft);
+            collision.gameObject.GetComponent<Player_info>().Hurt(2, owner.GetComponent<Player_info>().turnedLeft,"Wizard");
             Destroy(gameObject, 0.3f);
         }
         //if (collision.gameObject.name == "Path")

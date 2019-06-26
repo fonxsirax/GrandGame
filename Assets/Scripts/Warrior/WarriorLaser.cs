@@ -28,7 +28,7 @@ public class WarriorLaser : MonoBehaviour
     {
         if ((collision.gameObject.name != "Warrior") && (collision.gameObject.tag == "Player"))
         {
-            collision.gameObject.GetComponent<Player_info>().Hurt(1, GetComponentInParent<Player_info>().turnedLeft);
+            collision.gameObject.GetComponent<Player_info>().Hurt(1, GetComponentInParent<Player_info>().turnedLeft,"Warrior");
             collision.gameObject.GetComponent<Player_info>().Hit(10,10, GetComponentInParent<Player_info>().turnedLeft);
         }
     }

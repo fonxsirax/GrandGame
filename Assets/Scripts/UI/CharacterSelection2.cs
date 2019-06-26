@@ -13,13 +13,15 @@ public class CharacterSelection2 : MonoBehaviour
 
     public Player_info ninja;
     public Player_info warrior;
-    public Player_info knight;
+    public Player_info archer;
     public Player_info wizard;
 
     public GameObject ninjaBar;
     public GameObject warriorBar;
-    public GameObject knightBar;
+    public GameObject archerBar;
     public GameObject wizardBar;
+
+    public GameControl control;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +33,7 @@ public class CharacterSelection2 : MonoBehaviour
 
         ninja.GetComponent<Player_info>();
         warrior.GetComponent<Player_info>();
-        knight.GetComponent<Player_info>();
+        archer.GetComponent<Player_info>();
         wizard.GetComponent<Player_info>();
     }
 
@@ -40,33 +42,53 @@ public class CharacterSelection2 : MonoBehaviour
     {
         ninja.number = dropdown1.value;
         warrior.number = dropdown2.value;
-        knight.number = dropdown3.value;
+        archer.number = dropdown3.value;
         wizard.number = dropdown4.value;
     }
 
     public void Click() {
-        if (dropdown1.value == 0) {
+        if (dropdown1.value == 0)
+        {
             ninja.gameObject.SetActive(false);
             ninjaBar.SetActive(false);
         }
-        else ninja.gameObject.SetActive(true); ninjaBar.SetActive(true);
+        else
+        {
+            ninja.gameObject.SetActive(true);
+            ninjaBar.SetActive(true);
+            control.Characteres.Add(ninja.gameObject.name);
+        }
         if (dropdown2.value == 0)
         {
             warrior.gameObject.SetActive(false);
-            warriorBar.SetActive(false);
+            //warriorBar.SetActive(false);
         }
-        else warrior.gameObject.SetActive(true); warriorBar.SetActive(true);
+        else { 
+            warrior.gameObject.SetActive(true);
+            warriorBar.SetActive(true);
+            warriorBar.SetActive(true);
+            control.Characteres.Add(warrior.gameObject.name);
+        }
         if (dropdown3.value == 0)
         {
-            knight.gameObject.SetActive(false);
-            knightBar.SetActive(false);
+            archer.gameObject.SetActive(false);
+            archerBar.SetActive(false);
         }
-        else knight.gameObject.SetActive(true); knightBar.SetActive(true);
+        else
+        {
+            archer.gameObject.SetActive(true);
+            archerBar.SetActive(true);
+        }
         if (dropdown4.value == 0)
         {
             wizard.gameObject.SetActive(false);
             wizardBar.SetActive(false);
         }
-        else wizard.gameObject.SetActive(true); wizardBar.SetActive(true);
+        else
+        {
+            wizard.gameObject.SetActive(true);
+            wizardBar.SetActive(true);
+            control.Characteres.Add(wizard.gameObject.name);
+        }
     }
 }

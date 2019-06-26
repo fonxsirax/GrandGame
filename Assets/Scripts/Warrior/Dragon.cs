@@ -29,7 +29,7 @@ public class Dragon : MonoBehaviour
 
     private void Awake()
     {
-        dragonBar.SetActive(true);
+
         ////warrior.SetActive(true);
         //this_player.currentLife = warrior.GetComponent<Player_info>().currentLife;
         //this_player.currentMana = 0;
@@ -42,6 +42,7 @@ public class Dragon : MonoBehaviour
         this_player = GetComponent<Player_info>();
         animator = GetComponent<Animator>();
         body = GetComponent<Rigidbody2D>();
+        dragonBar.SetActive(true);
     }
 
     // Update is called once per frame
@@ -60,10 +61,18 @@ public class Dragon : MonoBehaviour
         {
             Is_jumping = true;
         }
+        if (Input.GetButtonDown("3Jump") && energy > 0 && this_player.number == 3)
+        {
+            Is_jumping = true;
+        }
         if (Is_jumping && Input.GetButtonUp("Fire1") && this_player.number == 1) {
             FireBlast();
         }
-        if (Is_jumping && Input.GetButtonUp("Fire1") && this_player.number == 2)
+        if (Is_jumping && Input.GetButtonUp("2Fire1") && this_player.number == 2)
+        {
+            FireBlast();
+        }
+        if (Is_jumping && Input.GetButtonUp("3Fire1") && this_player.number == 3)
         {
             FireBlast();
         }
@@ -78,6 +87,10 @@ public class Dragon : MonoBehaviour
         if (this_player.number == 2)
         {
             Player2Movements();
+        }
+        if (this_player.number == 3)
+        {
+            Player3Movements();
         }
     }
 
@@ -112,6 +125,28 @@ public class Dragon : MonoBehaviour
             simpleFire.SetActive(true);
         }
         if (Input.GetButtonDown("2Fire2"))
+        {
+            Cannon();
+        }
+        if (Is_jumping)
+        {
+            this_player.On_floor = false;
+            body.velocity = new Vector2(body.velocity.x, 0f);
+            body.AddForce(new Vector2(0f, jumpForce));
+            //animator.SetBool("jump", true);
+            energy--;
+            Is_jumping = false;
+        }
+    }
+    public void Player3Movements()
+    {
+        if (Input.GetButtonDown("3Fire1"))
+        {
+            animator.SetTrigger("fire");
+            //Projectile();
+            simpleFire.SetActive(true);
+        }
+        if (Input.GetButtonDown("3Fire2"))
         {
             Cannon();
         }
