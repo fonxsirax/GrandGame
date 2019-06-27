@@ -8,6 +8,7 @@ public class Arrow : MonoBehaviour
     public Animator animator;
     public Rigidbody2D body;
     public bool slow;
+    public bool poison;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,7 +42,11 @@ public class Arrow : MonoBehaviour
             if (slow)
             {
                 collision.gameObject.GetComponent<NegativeStatus>().slowPower = 4;
-                collision.gameObject.GetComponent<NegativeStatus>().timeSlow = Time.time + 4;
+                collision.gameObject.GetComponent<NegativeStatus>().timeSlow =  4;
+            }
+            if (poison) {
+                collision.gameObject.GetComponent<NegativeStatus>().poisonPower = 1;
+                collision.gameObject.GetComponent<NegativeStatus>().timePoison = 4;
             }
             Destroy(gameObject, 0.3f);
 

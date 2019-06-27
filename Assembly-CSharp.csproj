@@ -74,8 +74,10 @@
     <Compile Include="Assets\PinwheelFantasyEffect\Script\Spin.cs" />
     <Compile Include="Assets\PinwheelFantasyEffect\Script\Test.cs" />
     <Compile Include="Assets\Scripts\Archer\Archer.cs" />
+    <Compile Include="Assets\Scripts\Archer\Archer_Skills.cs" />
     <Compile Include="Assets\Scripts\Archer\Arrow.cs" />
     <Compile Include="Assets\Scripts\Archer\Frog.cs" />
+    <Compile Include="Assets\Scripts\Archer\Trap.cs" />
     <Compile Include="Assets\Scripts\Game_controller.cs" />
     <Compile Include="Assets\Scripts\GameControl.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />

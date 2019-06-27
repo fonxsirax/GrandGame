@@ -66,7 +66,6 @@ public class CharacterSelection2 : MonoBehaviour
         else { 
             warrior.gameObject.SetActive(true);
             warriorBar.SetActive(true);
-            warriorBar.SetActive(true);
             control.Characteres.Add(warrior.gameObject.name);
         }
         if (dropdown3.value == 0)
@@ -78,6 +77,7 @@ public class CharacterSelection2 : MonoBehaviour
         {
             archer.gameObject.SetActive(true);
             archerBar.SetActive(true);
+            control.Characteres.Add(archer.gameObject.name);
         }
         if (dropdown4.value == 0)
         {
